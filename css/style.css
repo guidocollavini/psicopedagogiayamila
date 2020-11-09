@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+.pspyami{
+    font-family: 'Clicker Script', cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+.logofull{
+    height: 70px;
+    width: 70px;
+}
+@media (max-width: 770px){
+    .pspyami{
+        font-size: 30px;
+    }
+    .logofull{
+        height: 40px;
+        width: 40px;
+    }
+    .linksnav{
+        font-size: 15px;
+    }
+    .navbar-toggler{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 390px){
+    .pspyami{
+        font-size: 25px;
+    }
+    .logofull{
+        height: 30px;
+        width: 30px;
+    }
+    .linksnav{
+        font-size: 15px;
+    }
+    .navbar-toggler{
+        font-size: 0.75rem;
+    }
+}
+.navtext{
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+}
+.bg-primary{
+    background: linear-gradient(90deg, rgba(9,14,135,0.97) 0%, rgba(30,139,246,0.97) 100%)!important;
+}
+.bg-secondary{
+    background: rgba(54, 124, 255, 0.75)!important;
+}
+.bg-info{
+    background: rgb(152, 187, 255)!important;
+}
+.nav-link{
+    transition: 200ms;
+}
+.masthead {
+    padding-top: calc(6rem + 30px);
+    padding-bottom: 1rem;
+}
+.masthead .masthead-avatar {
+    width: 18rem;
+}
+.masthead .masthead-heading {
+    font-family: 'Poiret One', cursive;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+.masthead .masthead-subheading {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2rem;
+}
+@media (max-width: 770px){
+    .masthead {
+        padding-top: calc(6rem + 20px);
+        padding-bottom: 1.5rem;
+    }
+    .masthead .masthead-avatar {
+        width: 12rem;
+    }
+    .masthead .masthead-heading {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .masthead .masthead-subheading {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 390px){
+    .masthead {
+        padding-top: calc(6rem + 5px);
+        padding-bottom: 1.5rem;
+    }
+}
+
+.fondocar{
+    background-image: url('../img/bgcar.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.page-section {
+    padding: 1rem 0;
+}
+.page-section .page-section-heading {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.25rem;
+    line-height: 3rem;
+}
+@media (max-width: 770px) {
+    .page-section .page-section-heading {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+}
+@media (max-width: 580px){
+    .page-section .page-section-heading {
+        font-size: 1.75rem;
+        line-height: 2rem;
+      }
+    .lead{
+        font-size: 1rem;
+    }
+}
+.footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+@media (max-width: 770px){
+    .footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .titfooter{
+        font-size: 1.2rem;
+    }
+}
+.btn-social {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color:rgba(255,255,255,0.5);
+    border: none;
+    transition: 150ms;
+}
+.card:hover{
+    cursor: pointer;
+    width: 102%;
+
+}
+@media (min-width: 450px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+@media (min-width: 768px) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+.pillsyami{
+    color: white;
+    font-size: 20px;
+    background-color: rgba(200, 200, 200, 0.5);
+}
+@media (max-width: 1000px){
+    .pillsyami{
+        font-size: 18px;
+    }    
+}
+.logocontacto{
+    width: 20rem;
+}
